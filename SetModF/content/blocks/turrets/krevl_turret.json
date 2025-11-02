@@ -1,0 +1,40 @@
+{
+  "type": "ItemTurret",
+  "name": "my-basic-turret",
+  "description": "Простая турель, стреляющая обычными пулями. Требует меди в качестве боеприпасов.",
+  "health": 250,
+  "size": 2,
+  "recoilAmount": 0.5, 
+  "range": 160,
+  "ammoTypes": {
+  	"krevl": {
+  		"damage": 50,
+  		"speed": 50,
+  		"type": "BasicBulletType"
+  	}
+  	"copper": {
+  		"damage": 5,
+  		"speed": 5,
+  		"type": "BasicBulletType"
+  	}
+  },
+  
+  "requirements": [
+  	{"item": "krevl", "amount":60},
+  	{"item": "lead", "amount":60},
+  	{"item": "copper", "amount":60},
+  ],
+  "research": {
+  	"parent": "duo",
+  	  "requirements": [
+  	  	{"item": "krevl", "amount":600},
+  	  	{"item": "lead", "amount":600},
+  	  	{"item": "copper", "amount":600},
+  	  ],
+  }
+}              
+/*.            */
+/*.            */
+/*.            */
+
+/*.            */
