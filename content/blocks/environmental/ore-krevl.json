@@ -1,0 +1,5 @@
+{
+    "name": "ore-krevl",
+    "type": "OreBlock",
+    "itemDrop": "krevl"
+}
